@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(108, 9, 201, 0.932);
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 50px;
+}
+
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.582);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.iconos{
+    background-color: rgba(255, 255, 255, 0.233);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    transition: background-color 1s;
+}
+
+.iconos:hover{
+    background-color: rgba(108, 9, 201, 0.932);
+    cursor: pointer;
+}
+
+i{
+    font-size: 50px;
+    transition: transform 0.5s;
+}
+
+i:hover{
+    transform: scale(1.2);
+}
